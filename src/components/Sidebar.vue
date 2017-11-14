@@ -12,7 +12,7 @@
       text-align center
       padding 10px
       font-size 20px
-      transition 0.2s
+      transition 0.3s
       cursor pointer
       &:hover
         background #eee

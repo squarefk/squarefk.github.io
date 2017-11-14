@@ -13,9 +13,9 @@
   .item Email: squarefk@gmail.com
   .item CV: <a href="#" target="_blank">download</a>
   .item Languages: Chinese(native), English
-  .sub-title Skills:
-  .items
-    .li-item(v-for="(item, index) of items") {{ item.text }}
+  .title Skills:
+  ul
+    li(v-for="(item, index) of items") {{ item.text }}
 </template>
 
 

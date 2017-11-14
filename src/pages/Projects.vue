@@ -1,37 +1,91 @@
-<style lang="stylus">
-
+<style lang="stylus" scoped>
+#projects
+  .project
+    padding-bottom 20px
+  img
+    width 100%
+    display inline-block
+  .images
+    padding 10px 0
+  .image-wrap
+    padding 10px 0
+    height 19vw
+    display flex
+    justify-content space-between
+    img
+      width auto
+      height 100%
+  .tunet
+    height 22vw
+  .maze1
+    height 15.3vw
+  .maze2
+    height 18vw
 </style>
 
 
 <template lang="pug">
 #projects
-  .title Taichi [http://taichi.graphics]
-  .ul-item Open source project, based on C++, python3, etc.
-  .ul-item Computer graphics library
-  .ul-item I am responsible for MPM, dynamic levelset, pakua(webpage based visualization), etc.
-  .ul-item I collaborate with project sponsor, Yuanming Hu, and publish a poster about effective MPM on SIGGRAPH 2017
+  .project
+    .title
+      a(href="http://taichi.graphics", target="_blank") Taichi
+    ul
+      li Open source project, based on C++, python3, etc.
+      li Computer graphics library
+      li I am responsible for MPM, dynamic levelset, pakua(webpage based visualization), etc.
+      li I collaborate with project sponsor, Yuanming Hu, and publish a poster about effective MPM on SIGGRAPH 2017
+    .images
+      img(src="../assets/projects/taichi.jpg")
 
-  .title NaivePt [https://github.com/squarefk/naivept]
-  .ul-item Individual project, based on C++
-  .ul-item Final project for the course, Fundamentals of Computer Graphics, which get the only full marks
-  .ul-item Offline renderer based on path tracing and probabilistic progressive photon mapping which implements caustics, volume light, etc.
+  .project
+    .title
+      a(href="https://github.com/squarefk/naivept", target="_blank") NaivePt
+    ul
+      li Individual project, based on C++
+      li Final project for the course, Fundamentals of Computer Graphics, which get the only full marks
+      li Offline renderer based on path tracing and probabilistic progressive photon mapping which implements caustics, volume light, etc.
+    .images
+      .image-wrap
+        img(src="../assets/projects/np1.jpg")
+        img(src="../assets/projects/np2.jpg")
+        img(src="../assets/projects/np3.jpg")
 
-  .title Phantouch VR
-  .ul-item Team project, based on OpenGL
-  .ul-item Presented for A round financing for a start-up company
-  .ul-item Graphics system for real-time virtual reality applications built from scratch
-  .ul-item I am responsible for shadow maps, the whole real-time post-processing pipeline (lens distortion, bloom FX, god ray, etc.)
+  .project
+    .title Phantouch VR
+    ul
+      li Team project, based on OpenGL
+      li Presented for A round financing for a start-up company
+      li Graphics system for real-time virtual reality applications built from scratch
+      li I am responsible for shadow maps, the whole real-time post-processing pipeline (lens distortion, bloom FX, god ray, etc.)
 
-  .title TUNet-Desktop
-  .ul-item Team project, based on Qt and QML
-  .ul-item A client that helps connect to Tsinghua.net with some other functions, such as todo reminder
-  .ul-item I am responsible for the software architecture and UI design
+  .project
+    .title TUNet-Desktop
+    ul
+      li Team project, based on Qt and QML
+      li A client that helps connect to Tsinghua.net with some other functions, such as todo reminder
+      li I am responsible for the software architecture and UI design
+    .images
+      .image-wrap.tunet
+        img(src="../assets/projects/tn1.png")
+        img(src="../assets/projects/tn2.png")
+        img(src="../assets/projects/tn3.png")
+        img(src="../assets/projects/tn4.png")
 
-  .title Maze
-  .ul-item Individual project, based on Unity3D (C# in the logical part)
-  .ul-item Final project for the course, Discrete Mathematics(2)
-  .ul-item I play with modern physical engine and do a little survey about how to build a 2 two dimensional maze
-
+  .project
+    .title Maze
+    ul
+      li Individual project, based on Unity3D (C# in the logical part)
+      li Final project for the course, Discrete Mathematics(2)
+      li I play with modern physical engine and do a little survey about how to build a 2 two dimensional maze
+    .images
+      .image-wrap.maze1
+        img(src="../assets/projects/maze1.jpg")
+        img(src="../assets/projects/maze2.jpg")
+        img(src="../assets/projects/maze3.jpg")
+      .image-wrap.maze2
+        img(src="../assets/projects/maze4.jpg")
+        img(src="../assets/projects/maze5.jpg")
+        img(src="../assets/projects/maze6.jpg")
 </template>
 
 
