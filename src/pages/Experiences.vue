@@ -10,11 +10,11 @@
   .section
     .title Tsinghua Graphics and Geometric Computing Group
     .gray-title Student(2016.07 - Present)
-    .desc  I focus on video post-processing by the method of deep learning.
+    .desc I focus on video post-processing by the method of deep learning.
 
   .section
     .title  Computer Graphics Group at Penn.
-    .gray-titles Visiting undergraduate student (2017.06 - 2017.08)
+    .gray-title Visiting undergraduate student (2017.06 - 2017.08)
     .desc I worked under the guidance of <a href="http://www.seas.upenn.edu/~cffjiang/" target="_blank">Prof Jiang</a>.
 
   .section

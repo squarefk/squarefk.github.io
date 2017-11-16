@@ -1,18 +1,34 @@
 <style lang="stylus" scoped>
+.abstract
+  .avatar
+    display inline-block
+    width 40%
+    vertical-align middle
+    img
+      width 100%
+  .section
+    padding-left 5%
+    display inline-block
+    width 60%
+    vertical-align middle
 </style>
 
 
 <template lang="pug">
 #home
-  .title Yu Fang 方燠
-  .desc
-    div I am a fourth-year undergraduate student majoring computer science at Tsinghua University.
-    div I am applying for Ph.D. program in 2017 fall.
-    div My primary research interest is physical based simulation. Recently, I have been working on Material Point Method(MPM) simulation. I am also attracted by machine learning and use it to solve some problems on video post-processing.
-
-  .item Email: squarefk@gmail.com
-  .item CV: <a href="#" target="_blank">download</a>
-  .item Languages: Chinese(native), English
+  .abstract
+    .avatar
+      img(src="../assets/fk.jpg")
+    .section
+      .title Yu Fang &nbsp;方&nbsp;&nbsp;燠
+      .desc
+        div I am a fourth-year undergraduate student majoring computer science at Tsinghua University.
+        div I am applying for Ph.D. program in 2017 fall.
+        div My primary research interest is physical based simulation. Recently, I have been working on Material Point Method(MPM) simulation. I am also attracted by machine learning and use it to solve some problems on video post-processing.
+      br
+      .item Email: squarefk@gmail.com
+      .item CV: <a href="#" target="_blank">download</a>
+      .item Languages: Chinese(native), English
   .title Skills:
   ul
     li(v-for="(item, index) of items") {{ item.text }}
