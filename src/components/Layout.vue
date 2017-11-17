@@ -34,9 +34,9 @@ export default {
       sidebar: [
         { text: 'About', url: '/', index: 0 },
         { text: 'Grades', url: '/grades', index: 1 },
-        { text: 'Awards', url: '/awards', index: 2 },
         { text: 'Projects', url: '/projects', index: 3 },
         { text: 'Experiences', url: '/experiences', index: 4 },
+        { text: 'Awards', url: '/awards', index: 2 },
         { text: 'Hobbies', url: '/hobbies', index: 5 },
       ],
     };

@@ -1,16 +1,22 @@
 <style lang="stylus" scoped>
-.abstract
-  .avatar
-    display inline-block
-    width 40%
-    vertical-align middle
-    img
-      width 100%
+#home
+  .abstract
+    .avatar
+      display inline-block
+      width 320px
+      vertical-align middle
+      img
+        width 100%
   .section
-    padding-left 5%
     display inline-block
-    width 60%
+    // width 80%
     vertical-align middle
+    .desc > div
+      padding-bottom 3px
+  .items
+    padding-top 5px
+    .item
+      padding-bottom 5px
 </style>
 
 
@@ -19,19 +25,22 @@
   .abstract
     .avatar
       img(src="../assets/fk.jpg")
-    .section
-      .title Yu Fang &nbsp;方&nbsp;&nbsp;燠
-      .desc
-        div I am a fourth-year undergraduate student majoring computer science at Tsinghua University.
-        div I am applying for Ph.D. program in 2017 fall.
-        div My primary research interest is physical based simulation. Recently, I have been working on Material Point Method(MPM) simulation. I am also attracted by machine learning and use it to solve some problems on video post-processing.
+  .section
+    .title Yu Fang &nbsp;方&nbsp;&nbsp;燠
+    .desc
+      div I am a fourth-year undergraduate student majoring in computer science at Tsinghua University.
+      div I am applying for Ph.D. program in 2017 fall.
       br
-      .item Email: squarefk@gmail.com
-      .item CV: <a href="#" target="_blank">download</a>
-      .item Languages: Chinese(native), English
-  .title Skills:
-  ul
-    li(v-for="(item, index) of items") {{ item.text }}
+      div My primary research interest is physical based simulation. Recently, I have been working on Material Point Method(MPM) simulation. I am also attracted by machine learning and use it to solve some problems on video post-processing.
+    br
+    .item <b>Email:</b> squarefk@gmail.com
+    //- .item CV: <a href="#" target="_blank">download</a>
+    .item <b>Languages:</b> Chinese(native), English
+  //- .section
+    .title Personal Information:
+  .title Skills
+  .items
+    .item(v-for="(item, index) of items") {{ item.text }}
 </template>
 
 
@@ -47,14 +56,9 @@ export default {
   data() {
     return {
       items: [
-        { text: 'C++(OpenGL, Qt)' },
-        { text: 'Python(Tensorflow, Django, Flask)' },
+        { text: 'C++(OpenGL, Qt), Python(Tensorflow, Django, Flask)' },
+        { text: 'Java(Android, SSH), GLSL, Matlab, Unity3D, HTML, CSS, JS' },
         { text: 'Git, Vim, Tmux, Latex' },
-        { text: 'Java(Android, SSH)' },
-        { text: 'GLSL' },
-        { text: 'Matlab' },
-        { text: 'HTML, CSS, JS' },
-        { text: 'Unity3D' },
       ],
     };
   },

@@ -2,39 +2,42 @@
 #grades
   .backGray
     background-color rgba(244, 244, 244, 0.8)
+  .items
+    padding-top 10px
+    .item
+      padding-bottom 5px
   table
-    padding 5px 0 10px 0
+    margin-top -15px
     width 100%
     text-align left
     thead
       color #888
     tbody
-      font-size 16px
-      margin-top 5px
+      font-size 14px
     td, th
-      padding 15px 10px
+      padding 12px 20px
     th
-      border-bottom 5px #aaa solid
+      border-bottom 5px #ddd solid
 </style>
 
 
 <template lang="pug">
 #grades
   .title Language Ability
-  ul
-    li TOEFL:90 (R25 L20 S20 W25)
-    li GRE: 313+3 (V144 Q169)
-    li GPA: 88/100 (Rank: 56/151)
+  .items
+    .item <b>TOEFL:</b> 90 (R25 L20 S20 W25)
+    .item <b>GRE:</b> 313+3 (V144 Q169)
+    .item <b>GPA:</b> 88/100 (Rank: 56/151)
 
   .l-item I made a decision to study for Ph.D. after I attended SIGGRAPH 2017 and met so many amazing scholars and works they did. Thus, I prepare English with clock ticking.
   .l-item I plan to take TOEFL and GRE tests again before Dec 3rd. I will update the scores asap.
 
-  .title Selected Courses:
+  .title Selected Courses
   .grades
     table(border='0', cellspacing="0", cellpadding="0")
       thead
         tr
-          th(v-for="title in tbTitle") {{ title }}
+          th(v-for="title in tbTitle")
       tbody
         tr(v-for="(course, index) in courses", :class="{'backGray': index % 2 === 0}")
           td(v-for="item in course") {{ item }}
@@ -52,9 +55,11 @@ export default {
         ['Linear Algebra(2)', '100'],
         ['Probability and Statistics', '98'],
         ['Programing and Training', '97'],
+        ['Discrete Mathematics(1)', '94'],
         ['Discrete Mathematics(2)', '97'],
         ['Students Research Training', '95'],
         ['Introduction to Artificial Intelligence', '95'],
+        ['Introduction to Complex Analysis', '95'],
       ],
     };
   },
