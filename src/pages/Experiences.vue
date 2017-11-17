@@ -20,7 +20,8 @@
     .wrap
       .title Tsinghua Graphics and Geometric Computing Group
       .gray-title Student(2016.07 - Present)
-      .desc I work under the guidance of <a href="http://cg.cs.tsinghua.edu.cn/shimin.htm">Prof Hu</a> and his post-doctoral student <a href="http://miaowang.me/">Miao Wang</a>. I focus on video post-processing by the method of deep learning. I implement and improve the state-of-the-art neural network model. A paper about our work is being written.
+      .desc.
+        I worked with <a href="http://cg.cs.tsinghua.edu.cn/shimin.htm">Prof. Shimin Hu</a> and his postdoc <a href="http://miaowang.me/">Dr. Miao Wang</a>, with a focus on deep-learning-based video post-processing. I implemented a novel deep neural network model which outperforms the state of the art. A paper about our work is being written.
     .avatar
       img(src="../assets/exp/tsinghua.jpg")
 
@@ -28,7 +29,7 @@
     .wrap
       .title  Computer Graphics Group at Penn
       .gray-title Visiting undergraduate student (2017.06 - Present)
-      .desc I work under the guidance of <a href="http://www.seas.upenn.edu/~cffjiang/" target="_blank">Prof Jiang</a>. I work on Material Point Method(MPM) to simulate water, rigid bodies effectively and accurately. We try to solve some common issues about MPM(e.g., how to make water divergence free, how to simulate thin objects). A paper about our work is being written.
+      .desc I work with <a href="http://www.seas.upenn.edu/~cffjiang/" target="_blank">Prof. Chenfanfu Jiang</a> on the Material Point Method(MPM), to effectively and accurately simulate water, rigid bodies. We proposed approaches to solve common issues about MPM (e.g., how to make incompressible liquid simulation divergence free and how to simulate thin-shell objects with coupling). Results will be submitted to SIGGRAPH 2018.
     .avatar
       img(src="../assets/exp/upenn.jpg")
 
@@ -36,14 +37,14 @@
     .wrap
       .title Phantouch
       .gray-title Graphics Engineer internship (2015.08 - 2015.11)
-      .desc I interned for this start-up company, Phantouch, which was a technology-based company researching into VR. A team about 10 people built low-latency VR system from scratch, both software and hardware. Our system was presented as demo for A round financing which user experience was as excellent as the best product of that time, Oculus and Gear VR, with a much lower product cost.
+      .desc I interned at Phantouch, a start-up company with a focus on VR research. We built a low-latency VR system from scratch, both software and hardware. Our system was presented as a successful demo for A-round financing. Its user experience (especially latency in graphics) was as excellent as the best product at that time, Oculus and Gear VR.
     .avatar
 
   .section
     .wrap
       .title Provincial Team Training
       .gray-title Coach (2014.08 - 2014.09, 2015.08 - 2015.09)
-      .desc I gave lectures to high school informatics algorithm competition participants.
+      .desc I gave lectures to high school Olympiad in Informatics competition participants.
     .avatar
 
   .section

@@ -29,7 +29,7 @@
     .item <b>GRE:</b> 313+3 (V144 Q169)
     .item <b>GPA:</b> 88/100 (Rank: 56/151)
 
-  .l-item I made a decision to study for Ph.D. after I attended SIGGRAPH 2017 and met so many amazing scholars and works they did. Thus, I prepare English with clock ticking.
+  .l-item I attended SIGGRAPH 2017 with my poster submission, and got the chance to meet many scholars. Inspired by the work they did, I made up my mind to do a Ph.D. I'm working hard on both research and language skills to make it possible.
   .l-item I plan to take TOEFL and GRE tests again before Dec 3rd. I will update the scores asap.
 
   .title Selected Courses

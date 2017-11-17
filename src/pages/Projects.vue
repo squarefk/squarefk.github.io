@@ -30,10 +30,9 @@
     .title
       a(href="http://taichi.graphics", target="_blank") Taichi
     ul
-      li Open source project, based on C++, python3, etc.
-      li Computer graphics library
-      li I am responsible for MPM, dynamic levelset, pakua(webpage based visualization), etc.
-      li I collaborate with project sponsor, Yuanming Hu, and publish a poster about effective MPM on SIGGRAPH 2017
+      li An Open source computer graphics library in C++ and python.
+      li I participated in the development of Taichi with MPM, time-variant level sets, and a WebGL-based visualization system (which allows checking results remotely).
+      li I'm collaborating with the project creator (Yuanming Hu) and published a poster about effective MPM on SIGGRAPH 2017.
     .images
       img(src="../assets/projects/taichi.jpg")
 
@@ -43,7 +42,7 @@
     ul
       li Individual project, based on C++
       li Final project for the course, Fundamentals of Computer Graphics, which get the only full marks
-      li Offline renderer based on path tracing and probabilistic progressive photon mapping which implements caustics, volume light, etc.
+      li Offline renderer based on path tracing and probabilistic progressive photon mapping, which implements caustics, volumetric scattering, etc.
     .images
       .image-wrap
         img(src="../assets/projects/np1.jpg")
@@ -54,15 +53,15 @@
     .title Phantouch VR
     ul
       li Team project, based on OpenGL
-      li Presented for A round financing for a start-up company
-      li Graphics system for real-time virtual reality applications built from scratch
-      li I am responsible for shadow maps, the whole real-time post-processing pipeline (lens distortion, bloom FX, god ray, etc.)
+      li Built for A round financing for a start-up company.
+      li A graphics system for real-time virtual reality applications, built from scratch
+      li I am responsible for shadow maps and the whole real-time post-processing pipeline, including lens distortion, bloom FX, light-shafts, etc.
 
   .project
     .title TUNet-Desktop
     ul
       li Team project, based on Qt and QML
-      li A client that helps connect to Tsinghua.net with some other functions, such as todo reminder
+      li A client that helps connection to Tsinghua.net with some other functions, such as a TODO reminder
       li I am responsible for the software architecture and UI design
     .images
       .image-wrap.tunet
@@ -76,7 +75,7 @@
     ul
       li Individual project, based on Unity3D (C# in the logical part)
       li Final project for the course, Discrete Mathematics(2)
-      li I play with modern physical engine and do a little survey about how to build a 2 two dimensional maze
+      li I played with modern physical engines and did a survey on how to build a challenging 2D maze.
     .images
       .image-wrap.maze1
         img(src="../assets/projects/maze1.jpg")
